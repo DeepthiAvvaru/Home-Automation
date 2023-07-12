@@ -1,0 +1,61 @@
+**ABSTRACT**
+
+Home automation using embedded systems has gained increasing popularity in 
+recent years, as it provides users with a more convenient and efficient way of managing 
+their homes. Embedded systems, which are small computers embedded in devices, are 
+used to control various aspects of the home such as lighting, heating, security, and 
+entertainment systems. In this paper we present an abstract for home automation using 
+embedded systems, focusing on the system architecture, hardware and software 
+components, and their interactions. The abstract describes the use of sensors for data 
+collection and control, and microcontrollers for processing and decision-making. 
+The project is implemented with the help of NodeMCU which have an inbuilt Wi-Fi module 
+and the home appliances are connected to 4 channel relay modules. Wireless connection 
+is created for communication between the NodeMCU and the Android application. By this 
+way we can operate the home appliances like fans, lights and AC etc. The benefits of 
+using embedded systems for home automation, including energy savings, increased 
+security, and improved quality of life for users.
+
+
+**INTRODUCTION**
+
+A brand-new method of electronically operating household equipment is called 
+"home automation." The phrases "Smart House" and "Intelligent Home" are used to 
+describe this kind of system and to present the idea of networking household equipment 
+and gadgets. The study of home automation systems (HASs) offers a significant chance to 
+develop new disciplines in engineering, architecture, and computer. The design of a home 
+automation system involves a number of difficulties. The system must be scalable in order 
+for additional devices to be quickly added. On the host side, it should offer a user-friendly 
+interface to enable configuration, monitoring, and management of the devices. It would 
+need to be affordable for the method to be widely used.
+Generally, in offices of public and private sector companies, most people are not 
+interested in switching off consumer electronic appliances like fans, lights, etc. if they are 
+not present. Power consumption in the home tends to rise as more consumer electronics 
+and home appliances are used and as their sizes expand. Furthermore, when they don't 
+carry out the main duty, they utilize energy ineffectively.
+For the convenience of consumers, home automation is a technique for automatically 
+regulating household equipment. The usage of equipment in accordance with precise 
+guidelines makes life easier for the user and conserves energy. Controls can be as simple 
+as setting up a network of household appliances that can be controlled remotely or as 
+sophisticated as dimming lights using a remote control.
+Home automation has several advantages, including increased comfort, security, 
+convenience, and energy efficiency. By automatically adjusting lighting, heating, and 
+cooling systems based on occupancy and environmental factors, home automation 
+systems can aid in reducing energy consumption. They can also give homeowners more 
+protection by allowing them to remotely monitor their properties and get notifications in the 
+event of suspicious behaviour. Ultimately, by making our homes smarter, more effective, 
+and more comfortable, home automation has the potential to completely change how we 
+live there.
+
+
+**BLYNK APP**
+
+Install the Blynk app from the Play store on your smartphone. Start the programme, Gmail 
+or Facebook may be used to sign up or login. Now pick the new project option to start a 
+new project and give it a name, such as home automation. Next, click the plus button to 
+add a switch to the work area. Once the switch has been added, click on it to configure it. 
+The output of the NodeMCU will then be selected by selecting the Output pins to Digital 
+pin number (Gp 0 to Gp 16). Choose the Pins that connect to Relays. 
+Finally, we added a feedback circuit to the nodeMCU to track the appliances' state 
+(whether they are on or off). A 220-volt AC-DC converter was employed for this feedback 
+circuit. NodeMCU could only operate at 3.3 volts. Hence, a voltage division rule was used 
+to lower the 220V voltage to 3V or 3.3V
